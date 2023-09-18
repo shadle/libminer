@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/shadle/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/shadle/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to provide an overview of your R library setup.
@@ -30,7 +32,7 @@ library(libminer)
 lib_summary()
 #>                                                                   Library
 #> 1               C:/Users/jshadle/AppData/Local/Programs/R/R-4.3.1/library
-#> 2 C:/Users/jshadle/AppData/Local/Temp/Rtmpe48qyA/temp_libpatha1846ad110af
+#> 2 C:/Users/jshadle/AppData/Local/Temp/Rtmpe48qyA/temp_libpatha18478052b5b
 #>   n_packages
 #> 1        339
 #> 2          1
@@ -38,7 +40,7 @@ lib_summary()
 lib_summary(sizes = TRUE)
 #>                                                                   Library
 #> 1               C:/Users/jshadle/AppData/Local/Programs/R/R-4.3.1/library
-#> 2 C:/Users/jshadle/AppData/Local/Temp/Rtmpe48qyA/temp_libpatha1846ad110af
+#> 2 C:/Users/jshadle/AppData/Local/Temp/Rtmpe48qyA/temp_libpatha18478052b5b
 #>   n_packages  lib_size
 #> 1        339 970592467
 #> 2          1     17301
