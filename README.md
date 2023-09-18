@@ -32,7 +32,7 @@ library(libminer)
 lib_summary()
 #>                                                                   Library
 #> 1               C:/Users/jshadle/AppData/Local/Programs/R/R-4.3.1/library
-#> 2 C:/Users/jshadle/AppData/Local/Temp/Rtmpe48qyA/temp_libpatha18478052b5b
+#> 2 C:/Users/jshadle/AppData/Local/Temp/Rtmpe48qyA/temp_libpatha18463fe4afa
 #>   n_packages
 #> 1        339
 #> 2          1
@@ -40,10 +40,10 @@ lib_summary()
 lib_summary(sizes = TRUE)
 #>                                                                   Library
 #> 1               C:/Users/jshadle/AppData/Local/Programs/R/R-4.3.1/library
-#> 2 C:/Users/jshadle/AppData/Local/Temp/Rtmpe48qyA/temp_libpatha18478052b5b
+#> 2 C:/Users/jshadle/AppData/Local/Temp/Rtmpe48qyA/temp_libpatha18463fe4afa
 #>   n_packages  lib_size
 #> 1        339 970592467
-#> 2          1     17301
+#> 2          1     17362
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
@@ -62,10 +62,3 @@ summary(cars)
 
 You’ll still need to render `README.Rmd` regularly, to keep `README.md`
 up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
